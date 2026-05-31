@@ -1,68 +1,34 @@
 # Sales Performance Analysis
 
-## Project Overview
-
-This project analyzes retail sales data to identify key drivers of revenue, profitability, customer behavior, and regional performance. The objective is to generate business insights and strategic recommendations that support data-driven decision-making.
-
-## Business Objectives
-
-* Evaluate overall business performance
-* Identify the most profitable product categories
-* Analyze regional sales and profit trends
-* Assess customer segment performance
-* Examine the impact of discounts on profitability
-* Provide actionable business recommendations
+## About the Project
+This was a sales analysis project where I explored a retail dataset to understand 
+what's driving revenue and profit — and where the business might be losing money. 
+I looked at product categories, regions, customer segments, and discounts to see 
+what patterns come up.
 
 ## Tools Used
+- Python, Pandas, NumPy
+- Matplotlib, Seaborn
+- Jupyter Notebook
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
+## Dataset
+Retail transactional data including product info, customer segments, 
+regional data, sales, profit, and discounts.
 
-## Dataset Information
+## What I Found
+- Technology was clearly the strongest category — highest sales and profit by far
+- Furniture was surprising, decent sales volume but barely any profit ($18K on $742K in sales)
+- Tables and Bookcases are actually running at a loss, which pointed me toward the discount data
+- November was the peak month, February the lowest — pretty clear seasonal pattern
+- Discounts above 30% consistently resulted in losses, which was probably the most useful finding
 
-The dataset contains transactional sales records, including product information, customer segments, regional data, sales revenue, profit, quantity, and discounts.
-
-## Key Findings
-
-### Technology is the strongest-performing category
-
-* Highest revenue: $836K
-* Highest profit: $145K
-
-### Furniture faces profitability challenges
-
-* Generated $742K in sales
-* Produced only $18K in profit
-
-### Tables and Bookcases operate at a loss
-
-* Tables: -$17.7K profit
-* Bookcases: -$3.5K profit
-
-### Strong seasonal sales pattern
-
-* November recorded the highest sales
-* February recorded the lowest sales
-
-### Discounts above 30% reduce profitability
-
-* High discount levels consistently resulted in financial losses
-
-## Strategic Recommendations
-
-1. Increase investment in Technology products.
-2. Review pricing and discount strategies for Furniture products.
-3. Limit discounts above 30%.
-4. Improve profitability within the Central region.
-5. Increase marketing efforts during Q4.
-6. Strengthen customer retention initiatives within the Consumer segment.
+## Recommendations
+- Cut back heavy discounting on Furniture, especially Tables and Bookcases
+- Q4 is the strongest period so it makes sense to push campaigns around that time
+- The Central region has a weird gap between sales and profit that's worth investigating
+- Technology is a safe bet to keep investing in given how consistently it performs
 
 ## Conclusion
-
-The analysis identified Technology as the company's strongest-performing category while revealing significant profitability challenges within Furniture. Regional analysis highlighted the West region as the leading market, while discount analysis demonstrated a strong negative relationship between excessive discounting and profitability.
-
-These findings provide actionable insights that can support revenue growth, improve margins, and enable more effective strategic decision-making.
+Overall this project gave me a clearer picture of where the business is doing well 
+and where it's not. The discount finding was probably the most actionable one — 
+there's a real opportunity to improve margins just by adjusting the discounting strategy.
